@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* Global Css */
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+/* Header Css Code Start */
+
+.navbar{
+   
+    background: #F0FFF0!important
+    
+}
+
+.navbar-brand{
+    width: 198.07px;
+}
+
+.navbar .nav-item{
+    margin-right: 25px;
+    
+}
+
+.navbar .nav-item .nav-link{
+    color: #000000;
+
+}
+
+.s-btn{
+    font-family: "Roboto", sans-serif;
+    background: #21B573;
+    border: 1px solid #21B573;
+    border-radius: 33px;
+    padding: 0px 20px;
+    color: white !important;
+
+    
+}
+
+.s-btn a{
+    
+    color: white !important;
+
+}  
+
+.s-btn:hover{
+   
+    background: transparent;
+    border: 1px solid #21B573;
+    color: black !important;
+    
+}
+
+
+.s-btn:hover a{
+   
+   
+    color: black !important;
+    
+}
+/* .s-btn2{
+    color:white!important
+} */
+    
+
+/* banner section css code start */
+
+.banner-section{
+    width: 100%;
+    padding: 0px 0px;
+    background-color: #F0FFF0;
+    margin-bottom: -60px;
+}
+    
+.banner-section img{
+    width: 554px;
+    padding: 0px 40px;
+
+}
+
+.banner-section .content .sub-title{
+    color: #FD511A;
+    line-height: 24px;
+
+}
+    
+.banner-section .content h1{
+    width: 78%;
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+    line-height: 70px;
+    margin-top: -15px;
+
+}
+.banner-section .content h1 span{
+    
+    color:#21B573;
+}
+.banner-section .content .para{
+    width: 73%;
+    color:black;
+    line-height: 36px;
+}
+.banner-section .content .btn-primary{
+    font-family: "Roboto", sans-serif;
+    background: #21B573;
+    border: 1px solid black;
+    border-radius: 33px;
+    padding: 12px 36px;
+    margin-top: 25px;
+    
+    
+}
+/* feature section css code start */
+
+.feature-section{
+    width: 100%;
+    padding: 60px 0px;
+    margin-bottom: -160px;
+ 
+}
+.feature-section .f-inner{
+    margin: 0px 10px;
+    text-align: center;
+    transition: 0.7s;
+    padding: 50px 0px;
+    border-radius: 10px;
+}
+
+.feature-section .f-inner:hover{
+    
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.1);
+    transition: 0.7s; 
+   
+}
+.feature-section .f-inner img{
+    width: 66px;
+    margin-bottom: 25px;
+}
+.feature-section .f-inner h4{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    
+}
+/* card+ online css code */
+
+.online-courses{
+    width: 100%;
+    padding: 60px 0px;
+    margin-bottom: -90px;
+}
+
+.online-courses h2{
+
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    color: #413960;
+    
+}
+
+.oc-card{
+    width: 96%;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.1);
+    margin: 0px 10px;
+    padding: 30px;
+    border-radius: 18px;
+}
+
+.content{
+    margin: 20px 0px 40px;
+}
+
+.content h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: #413960;
+
+}
+.content p{
+   color: #585859;
+
+}
+.content .btns a{
+    font-family: "Roboto", sans-serif;
+    background: #21B573;
+    border: 1px solid #21B573;
+    border-radius: 33px;
+    padding: 8px 28px;
+    color: white !important;
+    
+    
+ 
+}
+
+.content .btns {
+    padding-right: 10px;
+    margin-top: 25px;
+ 
+}
+.oc-foot{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* testimonial css code */
+
+.testimonial{
+    width: 100%;
+    padding: 60px 0px;
+    margin-bottom: -10px;
+}
+
+.testimonial h4{
+
+    text-align:center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 55px;
+    color: #000000;
+}
+.t-img{
+    text-align: right;
+}
+
+/* footer css code */
+
+.f-footer{
+    width: 100%;
+    padding: 50px 0px 15px;
+    background: #282531;
+    color: #FFFFFF;
+
+}
+.container{
+    width: 100%;
+    padding: 30px 0px;
+}
+.f-footer .container .f-para{
+    width: 73%;
+    
+}
+
+.f-footer .container h5{
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+.f-footer .container ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.f-footer .container .copyright{
+    text-align: center;
+    margin-top: 120px;
+    color:#CDCDCD;
+    margin-left:-15%;
+
+}
